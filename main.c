@@ -7,7 +7,7 @@ float a;
 int b;
 scanf("%f", &a);
 scanf("%d", &b);
-printf("%(b)f\n", a);
+printf("%.*f\n", b, a);
   
   return 0;
 }
